@@ -4,11 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "eleventy"
+    "build": "eleventy --input=src",
+    "start": "AWS_BRANCH=DEV_BRANCH eleventy --serve --input=src"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "@11ty/eleventy": "^0.11.0"
   }
