@@ -1,3 +1,3 @@
 module.exports = {
-  "branch": process.env.AWS_BRANCH
+  "AWS_BRANCH": process.env.AWS_BRANCH
 }
