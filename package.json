@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "eleventy",
-    "start": "AWS_BRANCH=DEV_BRANCH eleventy --serve"
+    "start": "AWS_BRANCH=DEV_BRANCH eleventy --serve --input=src"
   },
   "keywords": [],
   "author": "",

@@ -115,6 +115,7 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
+_site/
 #amplify
 amplify/\#current-cloud-backend
 amplify/.config/local-*
